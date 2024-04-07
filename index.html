@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BVC Sport Club Event Registration</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>BVC Sports Club Event Registration</h1>
+  </header>
+  <div class="body">
+    <form id="registrationForm" action="https://sport-club-website-backend.onrender.com/register" method="POST">
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="id">ID</label></td>
+            <td><input type="text" id="id" name="id" required></td>
+          </tr>
+          <tr>
+            <td><label for="fullname">Name</label></td>
+            <td><input type="text" id="fullname" name="fullname" required></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td><input type="text" id="address" name="address" required></td>
+          </tr>
+          <tr>
+            <td><label for="status">Status</label></td>
+            <td>
+              <select id="status" name="status">
+                <option value="student">student</option>
+                <option value="staff">staff</option>
+                <option value="volunteer">volunteer</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br><br>
+      <p id="message"></p>
+      <input type="submit" id="registrationFormSubmitBtn" value="Register">
+    </form>
+    <div id="DisplayInfo" style="display: none;"></div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

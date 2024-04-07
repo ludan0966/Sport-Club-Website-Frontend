@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 150px;
+}
+
+.body {
+  width: 80vw;
+  padding: 20px 5vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 5px 2px;
+}
+
+input, select {
+  font-size: medium;
+  width: 350px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  background-color: lightblue;
+}
+
+input[type="submit"] {
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+  background-color: blue;
+}
+
+h2{
+  font-weight: 400;
+}
+
+#DisplayInfo {
+  display: none;
+  text-align: left; 
+  margin: 0 auto; 
+  max-width: 450px; 
+}
+
+
+#DisplayInfo p {
+  text-align: left; 
+  font-size: 25px;
+  color: blue;
+}
+
